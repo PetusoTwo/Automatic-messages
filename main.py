@@ -6,7 +6,7 @@ from PyQt6.QtWidgets import QMessageBox
 from PyQt6.QtCore import Qt, QPoint
 from PyQt6.QtGui import QIntValidator
 from help import Ui_MainWindow
-
+#Autor: PetusoTwo#
 def enviar_mensajes(numeros, mensaje, wait_time):
     # Recorre la lista de números y envía el mensaje a cada uno
     for numero in numeros:
@@ -75,7 +75,7 @@ class MyApp(QtWidgets.QMainWindow):
         numeros = self.telefonos.text().split(",")
         # Llama a la función para enviar los mensajes
         enviar_mensajes(numeros, mensaje, wait_time)
-
+#Autor PetusoTwo#
         # Muestra un mensaje de éxito
         msg_box = QMessageBox()
         msg_box.setIcon(QMessageBox.Icon.Information)
@@ -118,3 +118,4 @@ if __name__ == "__main__":
     window = MyApp()
     window.show()
     sys.exit(app.exec())
+#Autor: PetusoTwo#
