@@ -9,10 +9,10 @@ Este proyecto es una aplicación en Python que automatiza el envío de mensajes 
 ### Funcionalidades
 
 1. **Enviar Mensajes Automatizados:**
-   - Configura el número de teléfono, el mensaje y la hora de envío.
+   - Configura los números de teléfono, el mensaje y tiempo de espera.
 
 2. **Programar Envíos:**
-   - Establece la fecha y la hora para el envío de mensajes automáticos.
+   - Establece el tiempo de espera entre cada envío de mensajes automáticos.
 
 3. **Interfaz Sencilla:**
    - Interfaz gráfica fácil de usar para ingresar los datos necesarios y ejecutar el script.
